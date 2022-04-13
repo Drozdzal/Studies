@@ -1,0 +1,32 @@
+<!DOCTYPE HTML><html><head>
+  <title>HTML</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+  <link rel="stylesheet">
+</head>
+  </head>
+  <body>
+  <h2>Type one if you want to move servo</h2>
+  <form action="{{ url_for('home') }}" method="post">
+    Servo_One: <input type="text" name="input_servo1_value">
+    <input type="submit">
+  </form><br>
+ <form action="{{ url_for('home') }}" method="post">
+   Servo_Two: <input type="text" name="input_servo2_value">
+    <input type="submit">
+  </form><br>
+  <form action="{{ url_for('home') }}" method="post">
+    Servo_Three: <input type="text" name="input_servo3_value">
+    <input type="submit">
+  </form>
+  <h2>Drive motor</h2>
+  </form><br>
+ <form action="{{ url_for('home') }}" method="post">
+   Forward: <input type="text" name="forward">
+    <input type="submit">
+  </form><br>
+  <form action="{{ url_for('home') }}" method="post">
+    Turn (minus value equals turn left): <input type="text" name="turn">
+    <input type="submit">
+  </form>
+</body></html>
