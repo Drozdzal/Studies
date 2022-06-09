@@ -1,0 +1,10 @@
+#!/bin/bash
+age=22
+echo "age equals ${age}"
+if [ ${age} -gt 20 ]
+#tutaj te przerwy sa mega wazne kurde
+then 
+echo 'you can'
+else
+echo 'nono senor'
+fi

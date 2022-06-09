@@ -1,0 +1,24 @@
+#!/bin/bash
+
+cd 
+cd catkin_ws
+echo "If we use * we are taking all files from current directory"
+for file in * 
+do
+echo ${file}
+done
+
+path=/home/drozdzal/catkin_ws/*
+
+echo "/n If we use ${path} then we have paths to files /n"
+
+for file in ${path}
+do
+echo ${file}
+done
+
+echo "* works like wildcard here we're using mav*"
+for file in mav*
+do 
+echo ${file}
+done

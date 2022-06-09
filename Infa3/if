@@ -1,0 +1,12 @@
+n#!/bin/bash
+for i in 1 2 3 4 5
+do
+  echo "Teraz przy ${i}"
+  if [ ${i} -eq 4 ]
+  then
+    echo "kurde czworeczka"
+  else
+    echo "kurde co innego"
+  fi
+done
+

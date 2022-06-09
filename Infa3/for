@@ -1,0 +1,14 @@
+#!/bin/bash
+
+variable="Maciek"
+echo "Odwolujac sie do zmiennej dajemy ${variable}"
+
+#for i in {1..5}
+#for i in {0..10..2}
+
+#for i in {"pierwszy","drugi"}
+for i in {1..5}
+do
+echo ${i}
+done
+echo 'Robie cos'

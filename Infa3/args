@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "In bash args are send as 1 2 3 ect.."
+
+echo "You sent ${1} as a first argument"
+
+echo "You sent ${2} as a second argument" 
